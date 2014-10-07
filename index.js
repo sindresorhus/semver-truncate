@@ -15,7 +15,7 @@ module.exports = function (version, type) {
 		version.patch = 0;
 	}
 
-	if (type === 'major') {
+	else if (type === 'major') {
 		version.patch = 0;
 		version.minor = 0;
 	}
