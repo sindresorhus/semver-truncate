@@ -1,6 +1,6 @@
 {
   "name": "semver-truncate",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Truncate a semver version: 1.2.3 → 1.2.0",
   "license": "MIT",
   "repository": "sindresorhus/semver-truncate",
