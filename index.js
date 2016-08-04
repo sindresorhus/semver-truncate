@@ -9,7 +9,7 @@ module.exports = function (version, type) {
 	version = semver.parse(version, {loose: true});
 
 	if (!version) {
-		throw new Error(`Version ${version} is not valid semver`);
+		throw new Error('Version ' + version + ' is not valid semver');
 	}
 
 	version.build = '';
