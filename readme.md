@@ -38,7 +38,7 @@ Semver version.
 
 #### type
 
-Type: `string`  
+Type: `string`<br>
 Values: `patch` `minor` `major`
 
 Version type to truncate to.

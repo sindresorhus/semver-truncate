@@ -1,5 +1,5 @@
 import test from 'ava';
-import m from './';
+import m from '.';
 
 test(t => {
 	t.is(m('1.2.3-foo', 'patch'), '1.2.3');

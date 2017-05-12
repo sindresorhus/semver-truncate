@@ -1,15 +1,15 @@
 'use strict';
-var semver = require('semver');
+const semver = require('semver');
 
-module.exports = function (version, type) {
+module.exports = (version, type) => {
 	if (['major', 'minor', 'patch'].indexOf(type) === -1) {
-		throw new TypeError('Invalid version type');
+		throw new TypeError(`Invalid version type: ${version}`);
 	}
 
 	version = semver.parse(version, {loose: true});
 
 	if (!version) {
-		throw new Error('Version ' + version + ' is not valid semver');
+		throw new Error(`Version ${version} is not valid semver`);
 	}
 
 	version.build = '';
