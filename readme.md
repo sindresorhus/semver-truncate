@@ -44,6 +44,14 @@ Values: `patch` `minor` `major`
 Version type to truncate to.
 
 
+## Related
+
+- [latest-semver](https://github.com/sindresorhus/latest-semver) - Get the latest stable semver version from an array of versions
+- [to-semver](https://github.com/sindresorhus/to-semver) - Get an array of valid, sorted, and cleaned semver versions from an array of strings
+- [semver-regex](https://github.com/sindresorhus/semver-regex) - Regular expression for matching semver versions
+- [semver-diff](https://github.com/sindresorhus/semver-diff) - Get the diff type of two semver versions: `0.0.1` `0.0.2` → `patch`
+
+
 ## License
 
 MIT © [Sindre Sorhus](https://sindresorhus.com)
