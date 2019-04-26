@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ npm install --save semver-truncate
+$ npm install semver-truncate
 ```
 
 
@@ -38,8 +38,7 @@ Semver version.
 
 #### type
 
-Type: `string`<br>
-Values: `patch` `minor` `major`
+Type: `'patch' | 'minor' | 'major'`
 
 Version type to truncate to.
 
