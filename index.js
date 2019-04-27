@@ -2,7 +2,7 @@
 const semver = require('semver');
 
 module.exports = (version, type) => {
-	if (['major', 'minor', 'patch'].indexOf(type) === -1) {
+	if (!['major', 'minor', 'patch'].includes(type)) {
 		throw new TypeError(`Invalid version type: ${version}`);
 	}
 
