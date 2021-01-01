@@ -1,4 +1,4 @@
-# semver-truncate [![Build Status](https://travis-ci.org/sindresorhus/semver-truncate.svg?branch=master)](https://travis-ci.org/sindresorhus/semver-truncate)
+# semver-truncate
 
 > Truncate a semver version: `1.2.3` → `1.2.0`
 
