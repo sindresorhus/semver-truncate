@@ -1,7 +1,6 @@
-'use strict';
-const semver = require('semver');
+import semver from 'semver';
 
-module.exports = (version, type) => {
+export default function semverTruncate(version, type) {
 	if (!['major', 'minor', 'patch'].includes(type)) {
 		throw new TypeError(`Invalid version type: ${version}`);
 	}
@@ -25,4 +24,4 @@ module.exports = (version, type) => {
 	}
 
 	return version.format();
-};
+}

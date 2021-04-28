@@ -1,5 +1,5 @@
 import test from 'ava';
-import semverTruncate from '.';
+import semverTruncate from './index.js';
 
 test('main', t => {
 	t.is(semverTruncate('1.2.3-foo', 'patch'), '1.2.3');

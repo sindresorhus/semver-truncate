@@ -6,7 +6,7 @@ Truncate a semver version: `1.2.3` → `1.2.0`.
 
 @example
 ```
-import semverTruncate = require('semver-truncate');
+import semverTruncate from 'semver-truncate';
 
 semverTruncate('1.2.3-foo', 'patch');
 //=> '1.2.3'
@@ -18,6 +18,4 @@ semverTruncate('1.2.3', 'major');
 //=> '1.0.0'
 ```
 */
-declare function semverTruncate(version: string, type: 'patch' | 'minor' | 'major'): string;
-
-export = semverTruncate;
+export default function semverTruncate(version: string, type: 'patch' | 'minor' | 'major'): string;
